@@ -17,5 +17,5 @@ cp ./.zshrc ~
 
 echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && /usr/sbin/locale-gen
 
-cp tmux.conf /root/.tmux.conf 
-cp pwninit-template.py /root/.config/pwninit-template.py
+cp ./tmux.conf ~
+cp ./pwninit-template.py ~/.config/
