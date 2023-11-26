@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cp ./.gitmessage ~
-cp ./.gitconfig ~
+git clone https://github.com/zer0guz/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
 
 # powerline fonts for zsh
 git clone https://github.com/powerline/fonts.git
