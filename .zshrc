@@ -104,3 +104,6 @@ alias pwninit='pwninit --template-path ~/.config/pwninit-template.py --template-
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+# Created by `pipx` on 2024-01-08 01:21:48
+export PATH="$PATH:/home/zero/.local/bin"
